@@ -8,6 +8,17 @@ technicians and a live dashboard, with role-based access enforced on the server.
 **Specialisation shown:** Full Stack delivery of a business workflow, with authorisation and a relational data model
 as the supporting skills.
 
+## Product film
+
+[![Play the 22-second Fieldline product film](docs/media/poster.jpg)](https://github.com/gad-rapaport/fieldline/releases/download/v0.1.0/fieldline-film.mp4)
+
+22 seconds, no sound needed: a failing freezer becomes a request, is assigned, worked through its tasks, survives a
+concurrent edit and is resolved. [Download or play the MP4](https://github.com/gad-rapaport/fieldline/releases/download/v0.1.0/fieldline-film.mp4)
+(release asset; needs access to this repository while it is private). Made from code in [animation/](animation/):
+[brief](docs/ANIMATION-BRIEF.md), [storyboard](docs/ANIMATION-STORYBOARD.md), [rendering](docs/ANIMATION-RENDERING.md).
+
+![Looping preview of the film: tasks ticking off and the status turning Resolved](docs/media/preview.webp)
+
 ## What it does
 
 - Sign in and out with server-side sessions. Three roles: **admin**, **technician**, **viewer**.
