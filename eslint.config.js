@@ -8,7 +8,7 @@ export default tseslint.config(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    files: ['server/**/*.ts', 'tests/**/*.ts', '*.config.ts'],
+    files: ['server/**/*.ts', 'tests/**/*.ts', '*.config.ts', 'scripts/**/*.{js,mjs}'],
     languageOptions: { globals: globals.node },
   },
   {
@@ -27,7 +27,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['server/src/cli.ts', 'tests/**/*.ts', 'scripts/**/*.{js,ts}'],
+    files: ['server/src/cli.ts', 'tests/**/*.ts', 'scripts/**/*.{js,mjs,ts}'],
     rules: { 'no-console': 'off' },
   },
 );
